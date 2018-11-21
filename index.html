@@ -1,6 +1,6 @@
 ---
 layout: page
-description: "没技术也没思想,也不是真的刑警🧐<br/><br/>因为不可抗力而去不了日本<br/><br/>代码，摄影，主机游戏"
+description: "没技术也没思想,也不是真的刑警🧐<br/>因为不可抗力而去不了日本<br/>代码，摄影，主机游戏"
 ---
 
 {% for post in paginator.posts %}
@@ -14,12 +14,12 @@ description: "没技术也没思想,也不是真的刑警🧐<br/><br/>因为不
             {{ post.subtitle }}
         </h3>
         {% endif %}
-        <div class="post-content-preview">
+        <!--div class="post-content-preview">
             {{ post.content | strip_html | truncate:200 }}
-        </div>
+        </div-->
     </a>
     <p class="post-meta">
-        Posted by {% if post.author %}{{ post.author }}{% else %}{{ site.title }}{% endif %} on {{ post.date | date: "%B %-d, %Y" }}
+        {{ post.date | date: "%Y年&nbsp%-m月%-d日" }}
     </p>
 </div>
 <hr>
