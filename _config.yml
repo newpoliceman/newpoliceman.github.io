@@ -1,9 +1,9 @@
 # Site settings
-title: CSI🕵️‍♂️安大君
-SEOTitle: CSI安大君のBlog
+title: 心有猛虎，细嗅蔷薇
+SEOTitle: 心有猛虎，细嗅蔷薇
 header-img: img/post-bg-desk.jpg
 email: newpoliceman2006@gmail.com
-description: "没技术也没思想，因为不可抗力而去不了日本，其实也不是真的刑警🧐，代码，摄影，主机游戏"
+description: "交流、约片，请发邮件"
 keyword: "去不了日本的刑警安大君的博客, hunterontario, 安大君, 编程, 摄影, 主机游戏"
 url: "http://newpoliceman.github.io"          # your host, for absolute URL
 baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
@@ -11,7 +11,7 @@ github_repo: "https://github.com/newpoliceman/newpoliceman.github.io.git" # you 
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
-sidebar-about-description: "回归那天，请一定接受我！"
+sidebar-about-description: "心有猛虎，细嗅蔷薇"
 #sidebar-avatar: /img/about-BY-gentle.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
